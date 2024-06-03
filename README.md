@@ -34,35 +34,13 @@ This project aims to understand the cancellation patterns for hotel bookings and
 <a name="steps"></a>
 
 ## Steps
-1. **Data Cleaning**: 
-    - Identify and handle missing values, including NULL, NA, and undefined values.
-    - Eliminate logical errors such as entries with no number of customers and negative average daily rates.
-    
-2. **Data Transformation**:
-    - Create new columns for country names and continents based on ISO3 country codes.
-    - Perform data transformation such as changing the value of the continent if the booking is domestic.
-    
-3. **EDA (Exploratory Data Analysis)**:
-    - Visualize the distribution of cancellation status by hotel type, lead time, and month of arrival.
-    - Analyze booking status by country and market segment.
-    - Investigate the price charged by market segment.
-    
-4. **Data Selection**:
-    - Analyze correlations between variables to select relevant features.
-    - Implement feature selection using random forest to identify important features.
-    
-5. **Clustering**:
-    - Determine the optimal number of clusters using hierarchical clustering and K-means.
-    - Perform K-means clustering to group similar data points.
-    
-6. **Classification**:
-    - Split the data into training and testing sets.
-    - Train machine learning models including K-nearest neighbor, Decision Tree, XGBoost, and Random Forest.
-    - Evaluate model performance using confusion matrix, ROC curve, and AUC.
-    
-7. **Prediction Evaluation**:
-    - Evaluate the prediction accuracy, precision, and AUC of each model.
-    - Compare the performance of different models.
+1. **Data Cleaning**: Handle missing values and eliminate logical errors.
+2. **Data Transformation**: Create new columns for country names and continents; perform data transformation.
+3. **EDA (Exploratory Data Analysis)**: Visualize distribution of cancellation status; analyze booking status by country and market segment.
+4. **Data Selection**: Analyze correlations between variables; implement feature selection using random forest.
+5. **Clustering**: Determine optimal number of clusters; perform K-means clustering.
+6. **Classification**: Split data into training and testing sets; train machine learning models.
+7. **Prediction Evaluation**: Evaluate model performance and compare different models.
 
 
 <a name="results"></a>
