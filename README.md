@@ -45,6 +45,19 @@ This project aims to understand the cancellation patterns for hotel bookings and
    cd hotel-booking-cancellation-prediction
 3. Run the `project-hotel-booking.R` script in RStudio or any R environment.
 
+<<<<<<< HEAD
+=======
+<a name="steps"></a>
+
+## Steps
+1. **Data Cleaning**: Handle missing values and eliminate logical errors.
+2. **Data Transformation**: Create new columns for country names and continents; perform data transformation.
+3. **EDA (Exploratory Data Analysis)**: Visualize distribution of cancellation status; analyze booking status by country and market segment.
+4. **Data Selection**: Analyze correlations between variables; implement feature selection using random forest.
+5. **Clustering**: Determine optimal number of clusters; perform K-means clustering.
+6. **Classification**: Split data into training and testing sets; train machine learning models.
+7. **Prediction Evaluation**: Evaluate model performance and compare different models.
+>>>>>>> origin/master
 
 
 <a name="results"></a>
